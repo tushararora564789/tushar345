@@ -65,4 +65,4 @@ async def on_member_join(member):
     await client.send_message(channel, embed=embed)
 
 
-client.run('NjEwMTc0NzU0Nzc5MDM3Njk2.XVDwuw.alVmHrb6uJi6LTuZsjNQelY_yqE')
+client.runNjY5NTM2OTI2MzUyNTM5NjQ4.XinBPg.xDkSQgEAyL2PjBQSvugEcnAWCdQ')
