@@ -33,8 +33,8 @@ async def on_ready():
     print('Logged in as '+client.user.name+' (ID:'+client.user.id+') | Connected to '+str(len(client.servers))+' servers | Connected to '+str(len(set(client.get_all_members())))+' users')
     print('--------')
     print('--------')
-    print('Started TRIVIA NATION 2.O')
-    print('Created by KESHAV RAJ ᴳᵒᵈ')
+    print('Started HUNTER')
+    print('Created by HUNTER)
     client.loop.create_task(status_task())
 
 
@@ -51,7 +51,7 @@ async def on_member_join(member):
     embed.add_field(name = '**__Welcome to Our Server TRIVIA NATION 2.0__**',value ='**Hope you will be active here. Check Our server <#610816633287606274> and never try to break any rules**. ',inline = False)
     embed.set_image(url = 'https://cdn.discordapp.com/attachments/610828452442013737/610897950201217048/390.gif')
     embed.set_thumbnail(url=member.avatar_url)
-    embed.set_footer(text=f"created by KESHAV RAJ ᴳᵒᵈ#7735",icon_url="https://cdn.discordapp.com/attachments/609581567135842314/609937606964281365/JPEG_20190811_080005.jpg")
+    embed.set_footer(text=f"created by HUNTER",icon_url="https://cdn.discordapp.com/attachments/609581567135842314/609937606964281365/JPEG_20190811_080005.jpg")
     await client.send_message(member,embed=embed)
     print("Sent message to " + member.name)
     channel = discord.utils.get(client.get_all_channels(), server__name='TRIVIA NATION 2.0', name='welcome')
@@ -61,7 +61,7 @@ async def on_member_join(member):
     embed.add_field(name='Your join position is', value=member.joined_at)
     embed.set_image(url = 'https://cdn.discordapp.com/attachments/610828452442013737/610898014059495424/tenor.gif')
     embed.set_thumbnail(url=member.avatar_url)
-    embed.set_footer(text=f"created by KESHAV RAJ ᴳᵒᵈ#7735",icon_url="https://cdn.discordapp.com/attachments/609581567135842314/609937606964281365/JPEG_20190811_080005.jpg")
+    embed.set_footer(text=f"created by HUNTER,icon_url="https://cdn.discordapp.com/attachments/609581567135842314/609937606964281365/JPEG_20190811_080005.jpg")
     await client.send_message(channel, embed=embed)
 
 
